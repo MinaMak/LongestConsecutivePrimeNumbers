@@ -1,4 +1,4 @@
-def show_results(max_limit)
+def find_longest_cons_prime_num(max_limit)
     require 'prime'
     results = {}
     primes = Prime.take_while {|p| p < max_limit}
